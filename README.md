@@ -1,8 +1,8 @@
 # Payments
 
-This is a sample payment tracker application which accepts payments (positive or negative) on the command line
+This is a sample payment tracker application which accepts payments (positive or negative) from the console input
 and once per minute logs balance for each used currency. Payment is expected as currency and amount pair e.g. EUR 500.
-Path to the file with initial payments may be provided as program argument. Such file should contain lines with payments
+Path to the file with initial payments may be provided as the program argument. Such file should contain lines with payments
 in the format described above.
 
  - Any three uppercase characters can be used as currency code.
